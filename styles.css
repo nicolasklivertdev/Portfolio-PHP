@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(21, 23, 28);
+    color: white;
+}
+
+.container {
+    margin: auto;
+    max-width: 1366px;
+}
+
+.intro {
+    display: flex;
+    padding: 120px 163px;
+    background-image: url(images/image-intro.png);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.title p {
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.span-title {
+    color: rgb(227, 100, 110);
+}
+
+.title h1 {
+    font-family: 'Asap';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67.2px;
+}
+
+.span-text {
+    text-align: center;
+    font-family: 'Maven Pro';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.social-btn1, .social-btn2, .social-btn3, .social-btn4, .social-btn5 {
+    display: flex;
+    padding: 4px 12px;
+    border-radius: 999px;
+    gap: 8px;
+}
+
+.social-btn1 p, .social-btn2 p, .social-btn3 p, .social-btn4 p, .social-btn5 p {
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: black;
+}
+
+.social-btn1 {
+    background-color: #82BC4F;
+}
+
+.social-btn2 {
+    background-color: #BB72E9;
+}
+
+.social-btn3 {
+    background-color: #3996DB;
+}
+
+.social-btn4 {
+    background-color: #E3646E;
+}
+
+.social-btn5 {
+    background-color: #EABD5F;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 144px;
+    padding-right: 120px;
+    padding-left: 120px;
+    gap: 56px;
+}
+
+.header-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-projects p {
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(227, 100, 110);
+}
+
+.header-projects h2 {
+    font-family: 'Asap';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.project-card {
+    display: flex;
+    padding: 12px;
+    border-radius: 12px;
+    gap: 16px;
+    background-color: rgb(40, 43, 51);
+}
+
+.text-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 4px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.description h3 {
+    font-family: 'Asap';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.description p {
+    font-family: 'Maven Pro';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: #C0C4CE;
+}
+
+.tags-project {
+    display: flex;
+    gap: 8px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 128px;
+    padding-bottom: 200px;
+    padding-right: 120px;
+    padding-left: 120px;
+    gap: 48px;
+    background-image: url(images/Contact.png);
+}
+
+.contacts-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.contacts-header p {
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BB72E9;
+}
+
+.contacts-header h2 {
+    font-family: 'Asap';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.contacts-header span {
+    font-family: 'Maven Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.link-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 12px;
+    background-color: #292C34;
+}
+
+.link-btn:hover {
+    cursor: pointer;
+}
+
+.link-btn p {
+    font-family: 'Maven Pro';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    width: 288px;
+    color: #C0C4CE;
+}
