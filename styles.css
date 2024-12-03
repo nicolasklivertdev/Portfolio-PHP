@@ -313,3 +313,14 @@ header {
         padding: 120px 20.375px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .intro {
+        padding: 120px 8px;
+    }
+
+    .title h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+}
